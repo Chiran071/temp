@@ -1,5 +1,5 @@
 .container{
-    height: 400px;
+    height: 550px;
     width: 700px;
     border: 1px solid black;
 }
@@ -12,8 +12,13 @@
 
 .first{
     background-color: red;
+    /* float: right; */
 }
 
 .second{
     background-color: blue;
+}
+
+.third{
+    background-color: green;
 }

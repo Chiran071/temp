@@ -2,12 +2,18 @@
     height: 550px;
     width: 700px;
     border: 1px solid black;
+    display: flex;
+    /* flex-direction: row;
+    flex-direction: column; */
+    flex-direction: row-reverse;
 }
 
 #box{
     height: 150px;
     width: 150px;
     margin: 5px 0px 0px 5px;
+    color: white;
+    font-size: 25px;
 }
 
 .first{

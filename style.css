@@ -13,6 +13,7 @@
     /* justify-content: center; */
     /* flex-wrap: wrap; */
     /* align-items: center; */ 
+    /* flex-shrink: 4; */
 }
 
 #box{
@@ -21,12 +22,14 @@
     margin: 5px 0px 0px 5px;
     color: white;
     font-size: 25px;
+    background-color: red;
 }
 
 .first{
     background-color: red;
     /* float: right; */
     /* align-self: center; */
+    flex-shrink: 4;
 }
 
 .second{

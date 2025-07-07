@@ -3,9 +3,16 @@
     width: 700px;
     border: 1px solid black;
     display: flex;
-    /* flex-direction: row;
-    flex-direction: column; */
-    flex-direction: row-reverse;
+     flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */ 
 }
 
 #box{
@@ -19,10 +26,12 @@
 .first{
     background-color: red;
     /* float: right; */
+    /* align-self: center; */
 }
 
 .second{
     background-color: blue;
+    /* align-self: flex-end; */
 }
 
 .third{
